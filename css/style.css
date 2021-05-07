@@ -31,6 +31,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: black;
   font-family: 'Delta Hey Max Nine', sans-serif;
   font-weight: 9;
   width: 100%;
@@ -57,9 +58,9 @@ body {
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border: 4px solid black;
-  background: #c10101;
-  -webkit-box-shadow: 0px 0px  10px grey;
-          box-shadow: 0px 0px  10px grey;
+  background: #ad0202;
+  -webkit-box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.476);
+          box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.476);
   -webkit-animation: growShrink 1.7s ease-out infinite;
           animation: growShrink 1.7s ease-out infinite;
 }
@@ -93,9 +94,11 @@ body {
   width: 70%;
   height: 70%;
   border: 2px solid black;
+  -webkit-box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.476);
+          box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.476);
   border-radius: 100%;
-  -webkit-animation: spin .5s ease-out infinite;
-          animation: spin .5s ease-out infinite;
+  -webkit-animation: spin .7s ease infinite;
+          animation: spin .7s ease infinite;
 }
 
 @-webkit-keyframes spin {
@@ -150,9 +153,5 @@ body {
   width: 27%;
   height: 27%;
   border-radius: inherit;
-  -webkit-border-radius: inherit;
-  -moz-border-radius: inherit;
-  -ms-border-radius: inherit;
-  -o-border-radius: inherit;
   background: black;
 }

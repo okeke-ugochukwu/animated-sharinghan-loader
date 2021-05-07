@@ -21,6 +21,13 @@ html {
   height: 100%;
 }
 
+@font-face {
+  font-family: 'delta_hey_max_9regular';
+  src: url("../font/delta_hey_max_nine-webfont.woff") format("woff2"), url("../font/delta_hey_max_nine-webfont.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,7 +39,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background: black;
-  font-family: 'Delta Hey Max Nine', sans-serif;
+  font-family: 'delta_hey_max_9regular';
   font-weight: 9;
   width: 100%;
   height: 100%;

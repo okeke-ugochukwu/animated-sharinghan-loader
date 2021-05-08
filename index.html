@@ -32,15 +32,28 @@
         <meta name="twitter:url" content="">
         <meta name="twitter:image" content="">
 
+
+        <script>
+
+            function startAnimation() {
+                document.getElementById("main_radius").style.display  = "flex";
+                document.getElementById("theme-song").play();
+            }
+            // document.getElementById("theme-song").addEventListener(onload, function() {
+            //     document.getElementById("main_radius").style.display  = "flex";
+            //     document.getElementById("theme-song").play();
+            // })
+        </script>
+
        
         
     </head>
 
     <body>
 
-        <audio  type="audio/mp3" src="audio/Akatsuki Theme Full Song Naruto Shippuuden OST.mp3" autoplay></audio>
+        <audio id="theme-song" onload="startAnimation()" type="audio/mp3" src="audio/Akatsuki Theme Full Song Naruto Shippuuden OST.mp3"></audio>
         
-       <div class="main_radius">
+       <div class="main_radius" id="main_radius" style="display: none">
             <div class="inner_radius">
 
                 <div class="inner_radius__sub">
@@ -58,6 +71,5 @@
        </div>
        
        
-        <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>

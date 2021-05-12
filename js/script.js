@@ -7,3 +7,5 @@ themeSong.addEventListener("loadedmetadata", (event) => {
 })
 
 
+
+//remember to do the thing 
